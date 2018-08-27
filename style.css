@@ -1,11 +1,16 @@
 #navbar {
   width: 200px;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
+  background-color: lightcyan
 }
 
 a {
   display: block;
+}
+
+main {
+  margin-left: 220px;
 }
