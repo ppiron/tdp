@@ -34,10 +34,21 @@ header, a {
   background-color: aliceblue;
 }
 
+.navbar-list:hover::before {
+  display: inline-block;
+  content: '';
+  background-image: url('baseline-bookmark-24px.svg');
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .navbar-list::before {
   display: inline-block;
-  content: ' ';
-  background-image: url('baseline-bookmark-24px.svg');
+  content: '';
+  background-image: url('baseline-bookmark-24px-1.svg');
   background-size: 20px 20px;
   height: 20px;
   width: 20px;
